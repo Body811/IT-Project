@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height:600vh;
+    scroll-behavior: smooth;
+}
+body{
+    background-image:url("img/test4.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    font-family: 'Helvetica', sans-serif; 
+    position: relative;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 28%;
+    align-items: center;
+    height: 8vh; 
+    position: fixed;
+    width: 100%;
+    transition: all .5s;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 15%;
+    
+}
+.menu{
+    
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    font-weight: bold;
+    margin-right: 15%;
+    
+}
+.menu li {
+    list-style: none;
+    text-align: right;
+
+}
+.menu a{
+    color:rgb(255, 255, 255) ;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .5s;
+}
+.menu a:hover{
+    color:rgb(152, 152, 152) ;
+    transition: all .5s;
+}
+.scrolled-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 28%;
+    align-items: center;
+    background-color: white; 
+    position: fixed;
+    width: 100%;  
+    height: 50px;   
+    box-shadow: 0 3px 1rem black;
+    transition: all .5s;    
+    z-index: 1;
+}
+.scrolled-nav .logo{
+    color: black;
+}
+.scrolled-nav .menu a{
+    color: black;
+    padding: 10px;  
+    transition: all .5s; 
+}
+.scrolled-nav .menu a:hover{
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0 2px 5px rgb(134, 134, 134);
+    transition: all .5s;
+    border-radius: 10px;
+    color: white;
+}
+#main-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3em;
+    font-family: 'Kaushan Script', cursive;
+    color:#fddc57;
+    width: 80%;
+    text-align: center;
+}
+#main-text a{
+    text-decoration: none;
+    color: #fddc57;
+    animation: fadeinout 3s linear infinite ;
+}
+#main-text a:hover{
+    text-decoration: underline;
+}
+#first-text{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    position: absolute;
+    top: 120%;
+    width: 100%;
+    text-align: center;
+    color: black;    
+    /* height: 200px; */
+    
+    /* background-color: rgb(118, 118, 118); */
+    /* box-shadow: 0 3px 1rem black; */
+    /* border: 80px black; */    
+}
+#first-text h1{
+    margin-top: 200px;
+    
+}
+#first-text div{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2em;
+}
+#second-text{
+    position: absolute;
+    top: 220%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+#second-text h1{
+    margin-top: 200px;
+    
+}
+#second-text div{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2em;
+}
+#third-text{
+    position: absolute;
+    top: 320%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+#third-text h1{
+    margin-top: 200px;
+    
+}
+#third-text div{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2em;
+}
+#fourth-text{
+    position: absolute;
+    top: 420%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+#fourth-text h1{
+    margin-top: 200px;
+    
+}
+#fourth-text div{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2em;
+}
+#fifth-text{
+    position: absolute;
+    top: 520%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+#fifth-text h1{
+    margin-top: 200px;
+    
+}
+#fifth-text div{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2em;
+}
+@keyframes fadeinout {
+    0% {opacity: 0.2;}
+    50% {opacity: 1;}
+    100% {opacity:0.2;}
+}
