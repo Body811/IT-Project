@@ -1,25 +1,65 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
+
   background-color: white;
+
   color: black;
   font-size: 15px;
 }
-
 .dark-mode {
   background-color: black;
   color: white;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333;
+  color: #04AA6D;
+}
 </style>
-<title>
-Mesut Özil
-</title>
 </head>
 <body>
+
+<div class="topnav">
+  <a class="active" href="https://body811.github.io/IT-Project/MainPage.html?#">Home</a>
+  <a href="https://body811.github.io/IT-Project/ronaldo.html">Ronaldo</a>
+  <a href="https://body811.github.io/IT-Project/about-us.html">About us</a>
+</div>
+
+<div style="padding-left:16px;">
+</div>
 <h1> <b> Mesut Ozil </b> </h1>
 <hr/>
 <h6> <i>
@@ -123,13 +163,26 @@ ACHIEVEMENTS </h2>
 </iframe>
 <hr/>
 <button onclick="myFunction()">Dark mode</button>
-<button onclick ="document.location='ronaldo.html'">Cristiano Ronaldo</button>
-<button onclick ="document.location='MainPage.html'">Main Page</button>
 <script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
 </script>
+<footer>
+  <p>Author: Atef Khaled <br>
+  </p>
+</footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
