@@ -60,7 +60,11 @@ form input{
   margin-bottom: 200px;
 }
 
-
+.btn{
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
 
 
 
