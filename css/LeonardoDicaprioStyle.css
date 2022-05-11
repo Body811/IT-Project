@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    min-width: 100%;
+    background-color: white;
+}
+button{
+    border: none; color: #ccc; padding: 15px 32px; text-align: center; font-size: 15px; margin: 4px 2px; cursor: pointer ;
+
+}
+.button1{
+    background-color: blue; 
+}
+header{
+    background-color: aliceblue;
+    width: 100%; position: fixed; z-index: 999; display: flex;
+    justify-content: space-between; align-items: center; padding: 10px;
+}
+.r-main{
+margin-left: 30px;
+color: blue;
+}
+.r-main a{
+color: blue;
+text-decoration: none;
+margin: 5px;
+font-size: 1.1em;
+}
+.r-main a:hover{
+    color: red;
+    transition: 0.2s;
+}
+.logo{
+    text-decoration: none; color: blue; text-transform: uppercase;
+    font-weight: 700; font-size: 1.8em; 
+}
+.navigation{
+    margin-right: 30px;
+}
+.navigation a{
+    color: blue;
+    text-decoration: none; font-size: 1.1em; font-weight: 400;
+    padding-left: 30px;
+}
+section{
+    padding: 15px; 
+    width: 100%;
+}
+
+.main{
+    position: relative;
+    width: 100%; min-height: 115vh; align-items:center ;
+    background: url("8.jpg") no-repeat ;
+    background-size: contain;    
+    top: 50px;
+}
+    .main h2{
+        color:black;
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+    .main h2 span{
+        display: inline-block;
+        color: blueviolet;
+        font-size: 1.8em;
+        font-weight: 800;
+    }
+    .main h3{
+    
+        color:aqua;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .inf h1{
+        margin-top: 40px;
+        color: blue;
+        font-size: 50px;
+        font-weight: 200;
+    }
+    .title{
+        display: flex; justify-content: center; color: blue; font-size: 2.2em;
+        font-weight: 800; margin-bottom: 30px;
+    }
+    .content{
+        display: flex; justify-content: center; flex-direction: row; 
+    }
+.card{
+    background-color: aliceblue; width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px; padding: 25px; margin: 15px;
+}
+.icon{
+    color: blue; font-size: 6em; text-align: center;
+}
+.info{
+     text-align: center;
+     
+ }
+ .info h3{
+    color: blue; font-size: 1.2em; font-weight: 700; margin: 10px;
+ }
+table{
+    width: 100%; border: 1px solid #ccc;
+    border-spacing: 0px;
+    
+}
+table th{
+    color: blue; background-color: #eee; text-align: center; font-weight: bold;
+    padding: 15px;
+}
+table td{
+    padding: 20px; background-color: #eee; border-spacing: 0px;
+    text-align: center;
+    padding: 15px;
+}

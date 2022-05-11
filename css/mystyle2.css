@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(148, 46, 46);
+}
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+button{
+    border: 5px solid sandybrown;
+    background-color: aqua;
+    padding: 30px;
+    padding-left:  45px;
+    padding-right: 45px;
+    color: darkviolet;
+    font-size: xx-large;
+}
+.return{
+    text-align: center;
+    margin: 90px;
+}
+.return a{
+    color: white;
+    font-size: x-large;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link id="css2" rel="stylesheet" href="css/mystyle2.css">
+        <title>frame and video</title>
+    </head>
+    <body>
+        <table style="width:100%">
+            <caption>nested elements in table</caption>
+            <tr>
+                <th><iframe width="560" height="315" src="https://www.youtube.com/embed/F-yEoHL7MYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></th>
+                <th><a href="PewDiePie1.html">go back</a></th>
+            </tr>
+            <tr>
+                <th>
+                    <button type="button" onclick="document.getElementById('css2').href='css/mystyle2.css'">theme 1</button>
+                    <br><br>
+                    <button type="button" onclick="document.getElementById('css2').href='css/mystyle3.css'">theme 2</button>
+                </th>
+                <th><video width="320" height="240" controls>
+                    <source src="media/video 1.mp4" type="video/mp4">
+                  </video></th>
+            </tr>
+        </table>
+        <div class="return">
+            <a href="MainPage.html">Return To Main Page</a>
+        </div>
+    </body>
+</html>

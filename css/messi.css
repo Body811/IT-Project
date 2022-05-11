@@ -1,0 +1,111 @@
+*{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+header{
+    background-color:darkblue; width: 100%; 
+    position: fixed; z-index: 999; display: flex ;
+    justify-content: space-between; align-items: center;
+    padding: 10px 20px ;
+}
+.logo{
+    text-decoration: none; color: antiquewhite; 
+    text-transform: uppercase; font-weight: 700; font-size: 1.8em;
+}
+.navigation {
+    color: darkgreen; text-decoration: none; font-size: 1.1em;
+    font-weight:500 ; padding-left: 30px;
+}
+.navigation a{
+    color: antiquewhite;
+}
+.navigation a:hover{
+    color: chartreuse ;
+
+}
+.main-text h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 80px;
+}
+.dark-mode{ background-color: black;
+    color: white;}
+    button{
+        border: none; color: #ccc; padding: 15px 32px; text-align: center; font-size: 15px; margin: 4px 2px; cursor: pointer ;
+    
+    }
+    button{
+        background-color: blue; 
+    }
+    section{
+        padding: 15px; 
+        width: 100%;
+    }
+    .main{
+        position: relative;
+        width: 100%; min-height: 100vh; align-items:center ;
+        background: url("messi1.jpg") no-repeat ;
+        background-size: cover;    
+        top: 50px;
+    }
+        .main h2{
+            color:chartreuse;
+            font-size: 3em;
+            font-weight: 500;
+            padding-top: 60px;
+            padding-left: 60px;
+
+        }
+        .main h2 span{
+            display: inline-block;
+            color: blueviolet;
+            font-size: 1.8em;
+            font-weight: 800;
+        }
+        .main h3{
+            padding-left: 65px;
+            padding-top: 20px;
+            color:aqua;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        .inf h1{
+            margin-top: 40px;
+            color: orangered;
+            font-size: 50px;
+            font-weight: 200;
+        }
+        .title{
+            display: flex; justify-content: center; color: orangered; font-size: 2.2em;
+            font-weight: 800; margin-bottom: 30px;
+        }
+        p{
+            color: rgb(111, 205, 16);
+        }
+
+        #goals{
+           text-align: center;
+        }
+        .btn{
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+        }
+
+
+
+
+
+
+        table{
+            width: 100%; border: 1px solid #ccc;
+            border-spacing: 0px;
+            
+        }
+        table th{
+            color: rgb(91, 24, 24); background-color: rgb(255, 0, 255); text-align: center; font-weight: bold;
+        }
+        table td{
+            padding: 20px; background-color: black; border-spacing: 0px; color: lime;
+        }
+        
