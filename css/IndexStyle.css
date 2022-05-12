@@ -8,6 +8,7 @@
     background: linear-gradient(#09ed27, #125d05);
     background-repeat: no-repeat;
     height:100vh;
+    font-family: 'Helvetica', sans-serif; 
 }
 .container{
     position:absolute;
@@ -83,6 +84,7 @@
     background-color:#133751;
     /* background-repeat: no-repeat;
     height:100vh; */
+    font-family: 'Helvetica', sans-serif; 
 }
 .container2{
     display: none;

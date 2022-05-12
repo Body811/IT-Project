@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-image:linear-gradient(#7d46b8, #37b6d8);
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: rgb(224, 224, 224);
+        font-family: 'Helvetica', sans-serif; 
+    }
+    .container{
+        position:absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(105, 50, 193);
+        height: 550px;
+        width: 60%;
+        border-radius: 40px;
+    }
+    .title{
+        background-color:rgb(72, 24, 149) ;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    label{
+        display: block;
+        font-size: 16px;
+        text-align: left;
+        margin-left: 25px;
+    }
+    form{
+        margin: 40px;
+        text-align: center;
+    }
+    .blank{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 35px;
+        width: 95%;
+    }
+    .feedback{
+        padding-bottom: 80px;
+    }
+    .btn{
+    margin-top: 14px;
+    padding: 15px;
+    width: 150px;
+    background-color:rgb(65, 58, 88) ;
+    color:rgb(224, 224, 224);
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 550;
+    border: 5px solid rgb(105, 50, 193); ;
+    }
+    .btn:hover{
+        cursor: pointer;
+        border-color: rgb(65, 58, 88);
+        transition: 0.2s;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        Your Feedback is Important for Us
+    </div>
+
+    <form action="MainPage.html">
+        <label>Username</label>
+        <input class = "blank" type="text" required placeholder="Enter Your Username" >
+        <Label>Email</Label>
+        <input class = "blank"type="email" required placeholder="Enter Your Email" >
+        <label>Feedback</label>
+        <input class="feedback blank" required type="text">
+        <input class="btn" type="submit" value="Send">
+    </form>
+</div>
+</body>
+</html>
